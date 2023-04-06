@@ -1,0 +1,18 @@
+programa {
+  funcao inicio() {
+    real a, b, c, d
+    escreva("Digite as Notas da P1 e P2 do Aluna A ")
+    leia(a)
+    leia(b)
+    escreva("Digite as Notas da P1 e P2 do Aluna B ")
+    leia(c)
+    leia(d)
+
+    escreva("Média do Aluno A: ", media_aluno(a, b))
+    escreva("\nMédia do Aluno B: ", media_aluno(c, d))
+  }
+
+  funcao real media_aluno(real c, real d){
+    retorne (c + d)/2
+  }
+}
